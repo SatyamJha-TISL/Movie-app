@@ -40,6 +40,7 @@ export default function App() {
   return (
     <>
       <header>
+        <h2>Apna Theatre</h2>
         <form onSubmit={handleOnSubmit}>
           <input
             className="search"

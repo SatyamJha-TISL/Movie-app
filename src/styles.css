@@ -20,7 +20,8 @@ header {
   background-color: #373b69;
   display: flex;
   padding: 1rem;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .movie-container {
@@ -60,6 +61,12 @@ header {
   right: 0;
   transform: translateY(102%);
   transition: transform 0.4s ease-in-out;
+}
+
+.movie-over p {
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 500;
 }
 .search {
   font-family: inherit;
